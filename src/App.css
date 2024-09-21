@@ -1,38 +1,174 @@
-.App {
+:root {
+  --primary-color: #aaabb8;
+  --secondary-color: #2e9cca;
+  --background-color: #0B6477;
+  --text-color: #333333;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: serif, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+section {
+  padding: 60px 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  /* background: url('/path-to-your-background-image.jpg') no-repeat center center/cover; */
+  color: white;
+  padding: 100px 20px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: var(--primary-color);
+}
+
+/* About Section */
+.about {
+  background-color: #f4f4f4;
+}
+
+/* Skills Section */
+.skills {
+  background-color: white;
+}
+
+/* Experience Section */
+.experience {
+  background-color: #f4f4f4;
+}
+
+.experience h2 {
+  margin-bottom: 2rem;
+}
+
+.experience ul {
+  list-style-type: none;
+}
+
+.experience li {
+  margin-bottom: 2rem;
+}
+
+/* Projects Section */
+.projects {
+  background-color: #f4f4f4;
+}
+
+.projects h2 {
+  margin-bottom: 1rem;
+}
+
+.project {
+  margin-bottom: 2rem;
+}
+
+/* Education Section */
+.education {
+  background-color: white;
+}
+
+.edu-item {
+  margin-bottom: 1.5rem;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #f4f4f4;
+}
+
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+input,
+textarea {
+  margin: 10px 0;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
   color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: var(--secondary-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .projects,
+  .education,
+  .contact {
+    padding: 40px 10px;
+  }
+
+  input,
+  textarea {
+    width: 80%;
   }
 }

@@ -1,0 +1,55 @@
+/* src/components/Contact.css */
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #0B6477;
+}
+
+.contact h2 {
+    color: #45DFB1;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.contact p {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    color: #FFFFFF;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact-button.call {
+    background-color: #28a745;
+}
+
+.contact-button.email {
+    background-color: #007bff;
+}
+
+.contact-button:hover {
+    transform: translateY(-3px);
+}
+
+.contact-button.call:hover {
+    background-color: #45DFB1;
+}
+
+.contact-button.email:hover {
+    background-color: #45DFB1;
+}
+

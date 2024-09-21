@@ -1,0 +1,69 @@
+.articles {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.articles h2 {
+    color: #45DFB1;
+    margin-bottom: 40px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-button {
+    background: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    color: #45DFB1;
+    transition: color 0.3s;
+}
+
+.slider-button:hover {
+    color: #80ED99;
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.article-card {
+    width: 350px;
+    margin: 0 10px;
+    background: #213A57;
+    color: #45DFB1;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.article-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4A90E2;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.article-link:hover {
+    background-color: #80ED99;
+}

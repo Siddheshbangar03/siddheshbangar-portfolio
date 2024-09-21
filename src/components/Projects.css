@@ -1,0 +1,74 @@
+/* Projects Section */
+.projects {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #0B6477;
+}
+
+.projects h2 {
+    color: #45DFB1;
+    margin-bottom: 40px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Project Card Styling */
+.project-card {
+    background: #213A57;
+    color: #45DFB1;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+    text-align: left;
+}
+
+.project-card:hover {
+    box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.2), 12px 12px 20px rgba(255, 255, 255, 0.6);
+}
+
+/* Card Title */
+.project-card h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+/* Card Description */
+.project-card p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Image Styling */
+.project-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Button */
+.project-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4A90E2;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.project-link:hover {
+    background-color: #80ED99;
+}
