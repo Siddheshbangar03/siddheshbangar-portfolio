@@ -6,9 +6,6 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Deployment](#deployment)
 - [Contact](#contact)
 
 ## Technologies Used
@@ -25,3 +22,11 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 - **Skills Section:** Displays my technical skills using icons.
 - **Projects Section:** Showcases my projects with links to live demos.
 - **Contact Section:** Includes a contact form and WhatsApp messaging feature.
+
+## Contact
+
+- **Feel free to reach out to me:**
+
+- **Email:** siddheshbangar03@gmail.com
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/siddheshbangar03/)
+- **Medium:** [Medium Link](https://siddheshbangar.medium.com/)
