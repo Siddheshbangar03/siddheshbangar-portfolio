@@ -11,7 +11,6 @@ import Articles from './components/Articles';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
-import { Helmet } from 'react-helmet';
 
 const App = () => {
   return (
