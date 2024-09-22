@@ -19,7 +19,7 @@ const App = () => {
       <Helmet>
         <meta name="description" content="Siddhesh Bangar - A passionate data science learner and front-end developer from Navi Mumbai, specializing in innovative tech solutions for social impact." />
         <meta name="keywords" content="Siddhesh Bangar, portfolio, front-end developer, data science, Flutter developer, data analysis, web development, Navi Mumbai, innovative tech, social impact, machine learning, AI, projects" />
-        <title>Siddhesh Bangar - Portfolio</title>
+        <title>Siddhesh Bangar</title>
       </Helmet>
       <Navbar />
       <Hero />
