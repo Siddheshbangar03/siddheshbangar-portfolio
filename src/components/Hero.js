@@ -1,7 +1,8 @@
 import React from 'react';
-import { FaLinkedin,FaGithub, FaTwitter, FaMedium, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaTwitter, FaMedium, FaEnvelope } from 'react-icons/fa';
 import './Hero.css';
-import profilePhoto from './profilePhoto.png'; // Import your profile photo
+import profilePhoto from './profilePhoto.png';
+import resumePDF from './Siddhesh_Bangar_Resume.pdf';
 
 const Hero = () => {
   return (
@@ -29,6 +30,11 @@ const Hero = () => {
               <FaEnvelope />
             </a>
           </div>
+
+          {/* Download Resume Button */}
+          <a href={resumePDF} download className="download-button fade-in">
+            Download Resume
+          </a>
         </div>
 
         {/* Right Side Photo */}

@@ -116,6 +116,25 @@
     animation-duration: 9s;
 }
 
+.download-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    color: white;
+    background-color: #45DFB1;
+    /* Button color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #36c2a2;
+    /* Hover color */
+}
+
 /* Keyframe Animations */
 @keyframes fadeIn {
     to {
