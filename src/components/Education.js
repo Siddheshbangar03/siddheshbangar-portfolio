@@ -21,7 +21,6 @@ const educationData = [
     duration: 'June 2018 - March 2019',
     gpa: 'Percentage: 91%',
   },
-  // Add more education as needed
 ];
 
 const Education = () => {

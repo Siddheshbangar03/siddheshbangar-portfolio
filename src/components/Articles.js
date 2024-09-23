@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
 import './Articles.css';
-
-import './Articles.css';
 import bytestream2024 from './bytestream2024.png';
 import bytestream2023 from './bytestream2023.png';
 import medium from './medium.png';
-
-
 
 const articles = [
   {
