@@ -1,7 +1,7 @@
 // src/components/Skills.js
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPython, faJsSquare, faReact, faFlutter,faWordpress  } from '@fortawesome/free-brands-svg-icons';
+import { faPython, faJsSquare, faReact, faFlutter,faWordpress } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faChartLine, faRobot } from '@fortawesome/free-solid-svg-icons'; 
 import './Skills.css';
 
