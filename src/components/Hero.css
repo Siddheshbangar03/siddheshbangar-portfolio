@@ -78,7 +78,7 @@
     width: 400px;
     height: 450px;
     object-fit: cover;
-    border: 5px solid #763788;
+    /* border: 5px solid ##fff; */
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
 
