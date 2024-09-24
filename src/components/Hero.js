@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaTwitter, FaMedium, FaEnvelope } from 'react-icons/fa';
 import './Hero.css';
-import profilePhoto from './profilePhoto.png';
+import photo from './photo.png';
 import resumePDF from './Siddhesh_Bangar_Resume.pdf';
 
 const Hero = () => {
@@ -39,7 +39,7 @@ const Hero = () => {
 
         {/* Right Side Photo */}
         <div className="hero-right fade-in">
-          <img src={profilePhoto} alt="Siddhesh Bangar" className="profile-photo" />
+          <img src={photo} alt="Siddhesh Bangar" className="profile-photo" />
         </div>
       </div>
 
