@@ -22,7 +22,7 @@ const Footer = () => {
             <a href="mailto:siddheshbangar03@gmail.com" target="_blank" rel="noreferrer">
               <FaEnvelope />
             </a>
-      <p className="copyright">&copy; {new Date().getFullYear()} Siddhesh Bangar. All rights reserved.</p>        
+      <p className="copyright">&copy; {new Date().getFullYear()} Siddhesh Bangar.</p>        
       </div>
     </footer>
   );
