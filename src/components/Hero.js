@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="hero-content">
         <div className="hero-left">
           <h1 className="name-animation">Hello, I'm Siddhesh Bangar</h1>
-          <p className="fade-in">Flutter Developer | Data Analyst | Tech Enthusiast</p>
+          <p className="fade-in">Flutter Developer | Data Analyst | Frontend | Tech Enthusiast</p>
 
           {/* Social Media Links */}
           <div className="social-links fade-in">
